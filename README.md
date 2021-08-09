@@ -1,4 +1,4 @@
-### RLadies Calgary August 2020 
+### RLadies Calgary August 2021
 
 # DIY R package workshop 
 
