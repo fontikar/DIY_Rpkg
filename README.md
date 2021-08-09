@@ -1,4 +1,4 @@
-### RLadies Sydney July 2020 
+### RLadies Calgary August 2020 
 
 # DIY R package workshop 
 

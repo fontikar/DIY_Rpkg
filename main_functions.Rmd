@@ -27,13 +27,17 @@ knitr::opts_chunk$set(echo = TRUE,
 pacman::p_load(dplyr)
 ```
 
+```{r klippy, eval=TRUE, echo=FALSE, include=TRUE}
+klippy::klippy(position = c('top', 'right'))
+```
+
 Below are some of the main functions you will need to create your first R package! 💪
 
 Please note 🚩 that some of the explanations are heavily borrowed from Hadley Wickham and Jenny Byran's book - ["R Packages: Oragnise, Test Document and Share your Code"](https://r-pkgs.org/index.html) which is open access! This is my go-to reference if I have a question about package development, highly recommended! ⭐️⭐️⭐️⭐️⭐️
 
 ### The mise en place 👩‍🍳
 
-```{r Prep}
+```{r Prep, class.source='klippy'}
 #install.packages("devtools")
 
 library(devtools) #Will load usesthis and roxgen2 as well
