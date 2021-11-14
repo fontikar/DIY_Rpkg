@@ -1,6 +1,4 @@
-### RLadies Calgary August 2021
-
-# DIY R package workshop 
+### DIY R package workshop 
 
 <img src="img/Beyonce_package.png" align="center" alt="" width="400">
 
@@ -22,7 +20,7 @@ For this interactive workshop, we will be making [ohwhaley](https://github.com/f
 
 This file is also neatly rendered here: https://fontikar.github.io/RLadiesCAL_Rpkg/
 
-I have included clipboard function for each chunk so its easier for everyone to follow along the workshop!
+I have included the clipboard function for each chunk so its easier for everyone to follow along the workshop!
 
 ### Meta data
 
@@ -43,7 +41,7 @@ Read more about R packages, I recommend the 2nd Edition of [The R packages book]
 ### Overview of workshop:
 
 1. What is an R package?
-2. Why make an R packge [a breakout discussion]
+2. Why make an R packge [a group discussion]
 3. The mise en place
   - R and RStudio
   - git and GitHub *optional, but recommended
@@ -53,14 +51,14 @@ Read more about R packages, I recommend the 2nd Edition of [The R packages book]
   - testthat
   - roxygen2
   - knitR
-5. Lets get coding! [interactive part]
+5. Lets get coding! [the interactive part!]
   - The main set up
   - Your first function
   - Document it!
   - README
   - Vignette
   - Tests
-6. What makes a good R package? [breakout discussion] *If there is time
+6. What makes a good R package? [a summary discussion] *if there is time
 7. Summary
 
 ### Additional resources
