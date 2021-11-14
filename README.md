@@ -18,7 +18,7 @@ For this interactive workshop, we will be making [ohwhaley](https://github.com/f
 
 **For the workshop, we will be working from main_functions.Rmd** 
 
-This file is also neatly rendered here: https://fontikar.github.io/RLadiesCAL_Rpkg/
+This file is also neatly rendered here: https://fontikar.github.io/DIY_Rpkg/
 
 I have included the clipboard function for each chunk so its easier for everyone to follow along the workshop!
 
