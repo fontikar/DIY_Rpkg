@@ -1887,21 +1887,15 @@ use_r(&quot;say&quot;) </code></pre>
     `,.__.   ,__.--/
      &#39;._/_.&#39;___.-`
 &quot;
-  #Finding the position of where to print message
-  what_pos_start &lt;-
-    regexpr(&#39;%s&#39;, whale)[1] - 1
-
-  what_pos_end &lt;- what_pos_start + 3
 
   #If what isn&#39;t supplied...
   if(missing(what)){
-    what &lt;- phrases %&gt;% sample(size = 1) #See here&#39;s the pipe!
+    what &lt;- phrases %&gt;% sample(size = 1)
   }
 
-  #Combining positions, message and whale together
-  out &lt;- paste0(substr(whale, 1, what_pos_start), #Top of speech bubble
-                what, #User specified message
-                substr(whale, what_pos_end, nchar(whale))) #Bottom of speech bubble + whale
+  #Combining message and whale together with sprintf (&quot;%s&quot; in the whale ASCII is replaced by &quot;what&quot;)
+  out &lt;- sprintf(whale, #Speech bubble
+                 what) #User specified message 
 
   #Return whale message
   message(out)
